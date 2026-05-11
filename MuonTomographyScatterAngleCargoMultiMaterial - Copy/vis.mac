@@ -1,0 +1,26 @@
+#         //|                                                    
+#        // |                                                    
+#       //  |  ||  ______  ||  ______       _______              
+#      //   |  || /        || /      \    //       \    ||      /
+#     //    |  ||/         ||/        \             |   ||     / 
+#    ///////|  ||          ||         |             |   ||    /  
+#   //      |  ||          ||         |    _________|   ||   /   
+#  //       |  ||          ||         |  //         \   ||  /    
+# //        |  ||          ||         |  ||         |   || /     
+#//         |  ||          ||         |  \\_________/\  ||/       
+
+/run/initialize
+/vis/disable
+/tracking/verbose 0
+/tracking/storeTrajectory 0
+/event/verbose 0
+/run/verbose 0
+/vis/open OGL
+/vis/viewer/set/viewpointVector 1 1 1
+/vis/drawVolume
+/vis/viewer/set/autoRefresh true
+/vis/scene/add/trajectories smooth
+/vis/scene/endOfEventAction accumulate
+/vis/scene/add/scale 10 cm
+#/vis/scene/add/axes
+/vis/scene/add/eventID
