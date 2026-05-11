@@ -10,7 +10,7 @@ from slice_viewer import SliceViewer
 # CONFIGURATION
 # ==========================================
 BIN_SIZE       = 0.5    # Size of zenith angle groups in degrees
-ZENITH_MAX     = 60.0   # From your generator.cc
+ZENITH_MAX     = 60.0   # From generator.cc
 SIM_PERCENTILE = 1.0   # 0.0 to 1.0 (50% of muons used)
 VOXEL_RES      = 120
 BOX_SIZE       = 80.0
